@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./Develop/style.css" />
+  <link rel="stylesheet" href="./Develop/css/style.css" />
   <title>Work Day Scheduler</title>
 </head>
 
@@ -28,7 +28,7 @@
   <div class="container time-block">
     <div class="row">
       <span class="col-2 hour">9 am</span>
-      <textarea class="text-area col-9 description"></textarea>
+      <textarea id="9" class="text-area col-9 description"></textarea>
       <button class="saveBtn fa fa-save col-1" style="font-size: 24px;" type="button"></button>
     </div>
   </div>
@@ -37,7 +37,7 @@
   <div class="container time-block">
     <div class="row">
       <span class="col-2 hour">10 am</span>
-      <textarea class="text-area col-9 description"></textarea>
+      <textarea id="10" class="text-area col-9 description"></textarea>
       <button class="saveBtn fa fa-save col-1" style="font-size: 24px;" type="button"></button>
     </div>
   </div>
@@ -46,7 +46,7 @@
   <div class="container time-block">
     <div class="row">
       <span class="col-2 hour">11 am</span>
-      <textarea class="text-area col-9 description"></textarea>
+      <textarea id="11" class="text-area col-9 description"></textarea>
       <button class="saveBtn fa fa-save col-1" style="font-size: 24px;" type="button"></button>
     </div>
   </div>
@@ -55,7 +55,7 @@
   <div class="container time-block">
     <div class="row">
       <span class="col-2 hour">12 pm</span>
-      <textarea class="text-area col-9 description"></textarea>
+      <textarea id="12" class="text-area col-9 description"></textarea>
       <button class="saveBtn fa fa-save col-1" style="font-size: 24px;" type="button"></button>
     </div>
   </div>
@@ -64,7 +64,7 @@
   <div class="container time-block">
     <div class="row">
       <span class="col-2 hour">1 pm</span>
-      <textarea class="text-area col-9 description"></textarea>
+      <textarea id="13" class="text-area col-9 description"></textarea>
       <button class="saveBtn fa fa-save col-1" style="font-size: 24px;" type="button"></button>
     </div>
   </div>
@@ -73,7 +73,7 @@
   <div class="container time-block">
     <div class="row">
       <span class="col-2 hour">2 pm</span>
-      <textarea class="text-area col-9 description"></textarea>
+      <textarea id="14" class="text-area col-9 description"></textarea>
       <button class="saveBtn fa fa-save col-1" style="font-size: 24px;" type="button"></button>
     </div>
   </div>
@@ -82,7 +82,7 @@
   <div class="container time-block">
     <div class="row">
       <span class="col-2 hour">3 pm</span>
-      <textarea class="text-area col-9 description"></textarea>
+      <textarea id="15" class="text-area col-9 description"></textarea>
       <button class="saveBtn fa fa-save col-1" style="font-size: 24px;" type="button"></button>
     </div>
   </div>
@@ -91,7 +91,7 @@
   <div class="container time-block">
     <div class="row">
       <span class="col-2 hour">4 pm</span>
-      <textarea class="text-area col-9 description"></textarea>
+      <textarea id="16" class="text-area col-9 description"></textarea>
       <button class="saveBtn fa fa-save col-1" style="font-size: 24px;" type="button"></button>
     </div>
   </div>
@@ -100,7 +100,7 @@
   <div class="container time-block">
     <div class="row">
       <span  class="col-2 hour">5 pm</span>
-      <textarea class="text-area col-9 description"></textarea>
+      <textarea id="17" class="text-area col-9 description"></textarea>
       <button class="saveBtn fa fa-save col-1" style="font-size: 24px;" type="button"></button>
     </div>
   </div>
@@ -110,6 +110,7 @@
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./Develop/js/script.js"></script>
 </body>
 
 </html>
