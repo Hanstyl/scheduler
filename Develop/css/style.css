@@ -11,7 +11,7 @@ textarea{
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
-  background-color: #e9ecef; /*Added, not sure if it will mess up the colors changed by ti*/
+  background-color: #e9ecef; 
 }
 
 .jumbotron {
@@ -70,4 +70,14 @@ textarea{
 .saveBtn:hover {
   transition: all .3s ease-in-out;
   background-color: green
+}
+
+#clear-button {
+  border: 1px solid red;
+  margin-top: 20px;
+}
+
+#clear-button:hover {
+  background-color: #ff6961;
+  color: white;
 }
